@@ -132,8 +132,6 @@ include("navbar.php");
 									</div>
 								</div>
 							</div>
-							
-							
 							<p class="subtitle_a">
 								Qu'est-ce qune CVE ? </br>
 								Une CVE est failles de sécurité informatique. </br>Lorsque l'on parle d'une CVE c'est une faille à qui a été attribuer un identifiant CVE.
@@ -208,7 +206,7 @@ include("navbar.php");
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 avi-0346">
 						<div class="service-box">
 							<a href=" https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0346/" target="_blank">
 								<div class="service-ico">
@@ -279,7 +277,7 @@ include("navbar.php");
 							</div>
 						</div>
 					</div>
-					</div><div class="col-md-4">
+					<div class="col-md-4">
 						<div class="service-box">
 							<div class="service-ico">
 								<span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
@@ -318,7 +316,15 @@ include("navbar.php");
 								Le dépassement de tampon de tas dans l'encodage vp8 dans libvpx dans Google Chrome avant 117.0.5938.132 
 								et libvpx 1.13.1 permettait à un attaquant distant d'exploiter potentiellement la corruption du tas via une page HTML contrefaite. 
 								(Gravité de sécurité de Chromium : élevée)</br>
-								Date : 28/09/2023</br>
+								Date : 28/09/2023</br></br>
+                                    </br></br>
+                                    </br></br>
+                                    </br></br>
+                                    </br></br>
+                                    </br></br>
+                                    </br></br>
+                                    </br></br>
+                                    </br></br>
 								</p>
 							</div>
 						</div>
