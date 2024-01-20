@@ -50,6 +50,9 @@ include("navbar.php");
 										<p class="title-s">Compétences</p>
 										<p><br><span class="title-s">Python</span> </br> maîtrise des bases</p>
 										<p><span class="title-s">bash</span> </br> bonne connaissance des bases</p>
+                                        <p><span class="title-s">JavaScript</span> </br> bonne connaissance des bases</p>
+                                        <p><span class="title-s">terraform</span> </br> bonne connaissance des bases</p>
+                                        <p><span class="title-s">php/html/css</span> </br> maîtrise des bases</p>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -60,7 +63,7 @@ include("navbar.php");
 											</h5>
 										</div>
 										<p class="lead">
-											Etudiant de 23 ans en BTS SIO.
+											Etudiant de 24 ans en BTS SIO.
 										</p>
 										<p class="lead">
 											Je m'interresse tout particulièrement au monde de la sécurité offensive. Je souhaite partir sur un bachelor et un master en cybersécurité.
@@ -277,105 +280,6 @@ include("navbar.php");
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-								<span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title">CERTFR-2023-CTI-006</h2>
-								<p class="s-description text-center">
-									Démantèlement du botnet Qakbot</br>
-									Date : 18/09/2023</br>
-									Référence :</br>
-										CERTFR-2023-CTI-006</br>
-									Contexte :</br>
-									</br>
-									Le Bureau fédéral d’enquête américain (FBI) a effectué le 26 août 2023 une opération de démantèlement et de désinfection 
-									du réseau de machines zombies ou botnet Qakbot (aussi appelé Qbot), en lien avec les autorités allemandes, néerlandaises, 
-									britanniques et françaises.</br>
-									</br>
-									Actif depuis 2008, Qakbot est à l’origine un cheval de Troie bancaire. 
-									Son architecture modulaire a depuis permis d’autres utilisations, 
-									comme l’enrôlement de machines infectées dans le botnet du même nom ou le vol d’authentifiants
-									de messagerie électronique dont le contenu sert à mener de nouvelles attaques. 
-									Les sites Check your hack (de la Police néerlandaise), et Have I been pwned ? 
-									permettent de vérifier si un compte de messagerie est connu pour avoir été compromis par Qakbot.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-							<a href="https://nvd.nist.gov/vuln/detail/CVE-2023-5217#" target="_blank"><span class="ico-circle"><i class="bi bi-brightness-high"></i></span></a>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title">CVE-2023-5217</h2>
-								<p class="s-description text-center">
-								Le dépassement de tampon de tas dans l'encodage vp8 dans libvpx dans Google Chrome avant 117.0.5938.132 
-								et libvpx 1.13.1 permettait à un attaquant distant d'exploiter potentiellement la corruption du tas via une page HTML contrefaite. 
-								(Gravité de sécurité de Chromium : élevée)</br>
-								Date : 28/09/2023</br></br>
-                                    </br></br>
-                                    </br></br>
-                                    </br></br>
-                                    </br></br>
-                                    </br></br>
-                                    </br></br>
-                                    </br></br>
-                                    </br></br>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-								<span class="ico-circle"><i class="bi bi-binoculars"></i></span>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title cve-title">Outils de recherche</h2>
-								<p class="s-description text-center">
-									trouver les nouvelles CVE : <br>
-										- exploit database <br>
-										- Anssi <br>
-									Détail sur les CVE : <br>
-										- cvedetails.com
-								</p>
-							</div>
-						</div>
-					</div>
-					<!-- </div><div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-								<span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title">Graphic Design</h2>
-								<p class="s-description text-center">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-									provident vitae! Magni
-									tempora perferendis eum non provident.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-								<span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title">Marketing Services</h2>
-								<p class="s-description text-center">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-									provident vitae! Magni
-									tempora perferendis eum non provident.
-								</p>
-							</div>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</section><!-- End Services Section -->

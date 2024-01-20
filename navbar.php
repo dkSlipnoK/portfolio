@@ -9,8 +9,8 @@
           <li class="dropdown"><a class="nav-link scrollto " href="#services">Veille Techno</a></li>
           <li class="dropdown"><a href="#work"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">CV</a></li>
-              <li><a href="#">Certification</a></li>
+              <li><a href="CV.php" target="_blank">CV</a></li>
+              <li><a href="#" target="_blank">Certification</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Projets Personnels</span> <i class="bi bi-chevron-down"></i></a>
