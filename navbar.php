@@ -10,7 +10,7 @@
           <li class="dropdown"><a href="#work"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="CV.php" target="_blank">CV</a></li>
-              <li><a href="#" target="_blank">Certification</a></li>
+              <li><a href="certif.php" target="_blank">Certification</a></li>
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Projets Personnels</span> <i class="bi bi-chevron-down"></i></a>
