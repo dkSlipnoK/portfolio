@@ -1,6 +1,24 @@
 <?php
+global $BasePDO;
 include("header.html");
 include("navbar.php");
+include("conn.php");
+
+$sql = "SELECT * FROM cve ORDER BY date DESC LIMIT 6";
+
+$stmt = $BasePDO->prepare($sql);
+
+$stmt->execute();
+
+$results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+$icons = [
+    "bi-briefcase",
+    "bi-card-checklist",
+    "bi-bar-chart",
+    "bi-brightness-high",
+    "bi-calendar4-week",
+];
 ?>
 
 <body>
@@ -81,39 +99,39 @@ include("navbar.php");
 		<!-- BTS SIO -->
 		<section id="bts" class="about-mf sect-pt4 route">
 			<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="box-shadow-full">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="about-me pt-4 pt-md-0">
-											<div class="title-box-2">
-												<h5 class="title-left">
-													BTS SIO </br>
-													Option SISR
-												</h5>
-											</div>
-											<p class="lead">
-												Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations, 
-												s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur 
-												réseau ou de développeur. Pour par la suite intégrer directement le marché du travail ou continuer des études,
-												dans le domaine de l'informatique.
-											</p>
-											<p class="lead">
-												<h5>Option SISR</h5>
-												L'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) du BTS SIO (Services Informatiques aux Organisations) 
-												forme des professionnels capables de concevoir, gérer et maintenir les infrastructures informatiques d'une entreprise. 
-												Les étudiants apprennent à configurer des serveurs, à administrer des réseaux, à assurer la sécurité informatique, 
-												et à résoudre des problèmes techniques liés aux systèmes et aux réseaux. Cette option prépare les étudiants à travailler 
-												dans le domaine de l'administration système et réseau au sein des organisations.
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box-shadow-full">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="about-me pt-4 pt-md-0">
+                                        <div class="title-box-2">
+                                            <h5 class="title-left">
+                                                BTS SIO </br>
+                                                Option SISR
+                                            </h5>
+                                        </div>
+                                        <p class="lead">
+                                            Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations,
+                                            s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur
+                                            réseau ou de développeur. Pour par la suite intégrer directement le marché du travail ou continuer des études,
+                                            dans le domaine de l'informatique.
+                                        </p>
+                                        <p class="lead">
+                                            <h5>Option SISR</h5>
+                                            L'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) du BTS SIO (Services Informatiques aux Organisations)
+                                            forme des professionnels capables de concevoir, gérer et maintenir les infrastructures informatiques d'une entreprise.
+                                            Les étudiants apprennent à configurer des serveurs, à administrer des réseaux, à assurer la sécurité informatique,
+                                            et à résoudre des problèmes techniques liés aux systèmes et aux réseaux. Cette option prépare les étudiants à travailler
+                                            dans le domaine de l'administration système et réseau au sein des organisations.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</section>
 		<section id="services" class="services-mf pt-5 route">
 			<div class="container">
@@ -143,143 +161,35 @@ include("navbar.php");
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
-						<div class="service-box">
-							<a href=" https://www.exploit-db.com/exploits/51397" target="_blank">
-								<div class="service-ico">
-									<span class="ico-circle"><i class="bi bi-briefcase"></i></span>
-								</div>
-								<div class="service-content">
-									<h2 class="s-title cve-title">CVE 2023-24685</h2>
-									<p class="s-description text-center">
-										</br>
-										EDB-ID : 51397 </br>
-										EDB verifié</br>
-										Date : 27-04-2023</br>
-										Type : webapps</br>
-										platform : php </br>
-										nom : ChurchCRM v4.5.1</br>
-										but : injection sql à la connection (Authenticated SQL injection)</br>
-										
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<a href="https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0359/" target="_blank">
-								<div class="service-ico">
-									<span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
-								</div>
-								<div class="service-content">
-									<h2 class="s-title cve-title">CERTFR-2023-AVI-0359</h2>
-									<p class="s-description text-center">
-										Multiples vulnérabilités dans le noyaux Linux Ubuntu </br>
-										Date : 05-05-2023 </br>
-										Référence : <br>
-											CERTFR-2023-AVI-0359 <br>
-										Risques : <br>
-											- execution de code arbitraire <br>
-											- DDOS <br>
-											- Élévation de privilèges  <br>
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<a href=" https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0358/" target="_blank">
-								<div class="service-ico">
-									<span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-								</div>
-								<div class="service-content">
-									<h2 class="s-title cve-title">CERTFR-2023-AVI-0358</h2>
-									<p class="s-description text-center">
-										</br></br>
-										Vulnérabilité dans le noyaux Linux de RedHat </br>
-										Date : 05-05-2023 </br>
-										Référence : <br>
-											CERTFR-2023-AVI-0358 <br>
-										Risques : 
-											- Élévation de privilèges <br></br></br>
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4 avi-0346">
-						<div class="service-box">
-							<a href=" https://www.cert.ssi.gouv.fr/avis/CERTFR-2023-AVI-0346/" target="_blank">
-								<div class="service-ico">
-									<span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
-								</div>
-								<div class="service-content">
-									<h2 class="s-title cve-title">CERTFR-2023-AVI-0346</h2>
-									<p class="s-description text-center">
-										</br></br></br>
-										Vulnérabilité dans le noyaux Linux de RedHat </br>
-										Date : 05-05-2023 </br>
-										Référence : <br>
-											CERTFR-2023-AVI-0358 <br>
-										Risques : 
-											- Élévation de privilèges <br>
-											- DDOS </br>
-											</br></br>
-											</br>
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-								<span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title">CERTFR-2023-AVI-0743</h2>
-								<p class="s-description text-center">
-									Multiples vulnérabilités dans les produits Microsoft </br>
-									Date : 13/09/2023</br>
-									Référence : <br>
-										CERTFR-2023-AVI-0743 </br>
-									Risques :</br>
-										- Contournement de la fonctionnalité de sécurité</br>
-										- Atteinte à la confidentialité des données</br>
-										- Déni de service</br>
-										- Exécution de code arbitraire à distance</br>
-										- Usurpation d'identité</br>
-										- Élévation de privilèges
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="service-box">
-							<div class="service-ico">
-								<span class="ico-circle"><i class="bi bi-calendar4-week"></i></span>
-							</div>
-							<div class="service-content">
-								<h2 class="s-title">CERTFR-2023-AVI-0752</h2>
-								<p class="s-description text-center">
-									Multiples vulnérabilités dans le noyau Linux de Debian</br>
-									Date : 15/09/2023</br>
-									Référence : <br>
-										CERTFR-2023-AVI-0752<br>
-									Risques :</br>
-										- Atteinte à l'intégrité des données</br>
-										- Atteinte à la confidentialité des données</br>
-										- Contournement de la politique de sécurité</br>
-										- Déni de service à distance</br>
-										- Exécution de code arbitraire à distance</br>
-										- Élévation de privilèges</br>
+                    <?php
+                    if ($results) {
+                    $iconIndex = 0; // Index pour alterner entre les icônes
+                    foreach ($results as $row) {
+                    // Sélectionner l'icône en fonction de l'index
+                    $iconClass = $icons[$iconIndex % count($icons)];
+                    $iconIndex++; // Préparer l'index pour la prochaine itération
 
-								</p>
-							</div>
-						</div>
-					</div>
+                    // Générer la carte pour chaque CVE
+                    echo '<div class="col-md-4 space">';
+                        echo '<div class="service-box row-equal-height">';
+                            echo '<a href="' . htmlspecialchars($row["lien"]) . '" target="_blank">'; // Utiliser le lien de la base de données
+                            echo '<div class="service-ico"><span class="ico-circle"><i class="bi ' . $iconClass . '"></i></span></div>';
+                            echo '<div class="service-content">';
+                                echo '<h2 class="s-title">' . htmlspecialchars($row["reference"]) . '</h2>';
+                                echo '<p class="s-description text-center">';
+                                    echo htmlspecialchars($row["description"]) . '<br>';
+                                    echo 'Date : ' . htmlspecialchars($row["date"]) . '<br>';
+                                    echo 'Risques : ' . htmlspecialchars($row["risques"]) . '<br>';
+                                    echo '</p>';
+                                echo '</div>';
+                            echo '</a>';
+                            echo '</div>';
+                        echo '</div>';
+                    }
+                    } else {
+                    echo "0 résultats";
+                    }
+                    ?>
 				</div>
 			</div>
 		</section><!-- End Services Section -->
@@ -291,10 +201,10 @@ include("navbar.php");
 					<div class="col-sm-12">
 						<div class="title-box text-center">
 							<h3 class="title-a">
-								Portfolio
+								Projet
 							</h3>
 							<p class="subtitle-a">
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Projets personnels, stage et atelier de profesionnalisation
 							</p>
 							<div class="line-mf"></div>
 						</div>
@@ -303,22 +213,22 @@ include("navbar.php");
 				<div class="row">
 					<div class="col-md-4">
 						<div class="work-box">
-							<a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+							<a href="assets/img/chtac.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
 								<div class="work-img">
-									<img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+									<img src="assets/img/chtac.png" alt="" class="img-fluid">
 								</div>
 							</a>
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Lorem impsum dolor</h2>
+										<h2 class="w-title">Site web Chtac</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+											<span class="w-ctegory">Projet personnel d'un site web (symfony) pour la gestion des concours de Tir à l'arc à cheval</span>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+											<a href="https://127.0.0.1:8000/" target="_blank"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -327,22 +237,24 @@ include("navbar.php");
 					</div>
 					<div class="col-md-4">
 						<div class="work-box">
-							<a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+							<a href="assets/img/ap1er.webp" data-gallery="portfolioGallery" class="portfolio-lightbox">
 								<div class="work-img">
-									<img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+									<img src="assets/img/ap1er.webp" alt="" class="img-fluid">
 								</div>
 							</a>
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Loreda Cuno Nere</h2>
+										<h2 class="w-title">AP de première année</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+											<span class="w-ctegory">
+                                                Atelier réalisé lors de ma première année de BTS SIO option SISR
+                                            </span>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+											<a href="ap.php#first" target="_blank"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -351,22 +263,24 @@ include("navbar.php");
 					</div>
 					<div class="col-md-4">
 						<div class="work-box">
-							<a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+							<a href="assets/img/ap2.webp" data-gallery="portfolioGallery" class="portfolio-lightbox">
 								<div class="work-img">
-									<img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+									<img src="assets/img/ap2.webp" alt="" class="img-fluid">
 								</div>
 							</a>
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Mavrito Lana Dere</h2>
+										<h2 class="w-title">AP de deuxième année</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+											<span class="w-ctegory">
+                                                Atelier réalisé lors de ma deuxième année de BTS SIO option SISR
+                                            </span>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+											<a href="ap.php#second" target="_blank"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -375,22 +289,22 @@ include("navbar.php");
 					</div>
 					<div class="col-md-4">
 						<div class="work-box">
-							<a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+							<a href="assets/img/fogproject.webp" data-gallery="portfolioGallery" class="portfolio-lightbox">
 								<div class="work-img">
-									<img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+									<img src="assets/img/fogproject.webp" alt="" class="img-fluid">
 								</div>
 							</a>
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Bindo Laro Cado</h2>
+										<h2 class="w-title">Stage de première année</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+											<span class="w-ctegory">Stage réalisé au sein de 3il Ingénieur</span>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php" target="_blank"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -399,22 +313,22 @@ include("navbar.php");
 					</div>
 					<div class="col-md-4">
 						<div class="work-box">
-							<a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+							<a href="assets/img/terraform_aws.webp" data-gallery="portfolioGallery" class="portfolio-lightbox">
 								<div class="work-img">
-									<img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+									<img src="assets/img/terraform_aws.webp" alt="" class="img-fluid">
 								</div>
 							</a>
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Studio Lena Mado</h2>
+										<h2 class="w-title">Stage de deuxième année</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+											<span class="w-ctegory">Stage réalisé au sein d'Iconosquare</span>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php" target="_blank"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -449,7 +363,171 @@ include("navbar.php");
 				</div>
 			</div>
 		</section><!-- End Portfolio Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="profil" class="portfolio-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Portfolio
+                            </h3>
+                            <p class="subtitle-a">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <div class="line-mf"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Lorem impsum dolor</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Loreda Cuno Nere</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Mavrito Lana Dere</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Bindo Laro Cado</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Studio Lena Mado</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <div class="work-img">
+                                    <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Studio Big Bang</h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+            </div>
+        </section><!-- End Portfolio Section -->
 		
 		
 	</main><!-- End #main -->
