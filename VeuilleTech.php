@@ -1,4 +1,5 @@
 <?php
+global $BasePDO;
 include("header.html");
 include("conn.php");
 $sql = "SELECT * FROM cve";
