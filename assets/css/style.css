@@ -864,17 +864,18 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.pdf {
-  margin-left: 25rem;
-  margin-right: 20rem;
-}
+
 .service-box {
   background-color: #6c000026;
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   text-align: center;
   box-shadow: 0px 0px 7px 7px #6c0000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .service-box:hover .ico-circle {
@@ -1449,6 +1450,92 @@ a:hover {
   color: #fff;
 }
 
+/* CSS pour s'assurer que tous les enfants d'une rangée aient la même hauteur */
+.row-equal-height {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-equal-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.space {
+  margin-bottom: 2rem;
+}
+
+.certif {
+  justify-content: center;
+  align-items: stretch; /* Aligner les enfants de flex pour qu'ils aient la même hauteur */
+}
+
+.flex-woaw{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width : 100%;
+  height : 100%;
+}
+
+.img-aws {
+  flex: 1; /* Permet à la boîte de service de remplir l'espace disponible */
+  display: flex;
+  margin: 20px; /* Ajouter un peu de marge autour des boîtes */
+}
+.pdf {
+  flex-basis: 63.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Réglage de la taille de la balise embed pour le PDF */
+.pdf embed {
+  width: 100%; /* Utilisez 100% de la largeur du conteneur .pdf */
+  min-height: 100%; /* La hauteur se règle automatiquement pour correspondre à celle de .img-aws */
+  border-radius: 1rem;
+  box-shadow: 0px 0px 7px 7px #6c0000;
+}
+.certif-box {
+  display: flex;
+  flex-basis: 35%;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%; /* Permet à la boîte de service de remplir le conteneur .img-aws */
+}
+
+/* Scrollbar disabled */
+
+body {
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Responsive */
+
+@media(max-width: 1200px) {
+  .flex-woaw{
+    display: flex;
+    flex-direction: column;
+    width : 100%;
+    height : 100%;
+  }
+
+  .pdf{
+    display : block;
+    min-height : 500px;
+  }
+
+  .certif-box {
+    display: block;
+  }
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

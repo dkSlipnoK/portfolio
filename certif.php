@@ -16,17 +16,18 @@ include("header.html");
             </div>
         </div>
     </div>
-    <p></p>
-    <div class="row">
+    <div class="row certif">
         <div class="col-md-4 img-aws">
-            <div class="service-box">
-                <div class="service-content">
-                    <h2 class="s-title cve-title">AWS </h2>
-                    <img src="assets/img/aws-academy-graduate-aws-academy-cloud-foundations.png" alt="">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">AWS </h2>
+                        <img src="assets/img/aws-academy-graduate-aws-academy-cloud-foundations.png" alt="">
+                    </div>
                 </div>
+                <div class="pdf"><embed src="assets/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20240120-34-lccg3u.pdf" type="application/pdf"/></div>
             </div>
         </div>
-    <div class="pdf"><embed src="assets/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20240120-34-lccg3u.pdf" width="800" height="675" type="application/pdf"/></div>
 </body>
 
 <!-- Vendor JS Files -->
