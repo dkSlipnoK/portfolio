@@ -104,7 +104,7 @@ $icons = [
                         <div class="box-shadow-full">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="about-me pt-4 pt-md-0">
+                                    <div class="about-me pt-4 pt-md-0 optioncontainer">
                                         <div class="title-box-2">
                                             <h5 class="title-left">
                                                 BTS SIO </br>
@@ -117,14 +117,28 @@ $icons = [
                                             réseau ou de développeur. Pour par la suite intégrer directement le marché du travail ou continuer des études,
                                             dans le domaine de l'informatique.
                                         </p>
-                                        <p class="lead">
-                                            <h5>Option SISR</h5>
-                                            L'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) du BTS SIO (Services Informatiques aux Organisations)
-                                            forme des professionnels capables de concevoir, gérer et maintenir les infrastructures informatiques d'une entreprise.
-                                            Les étudiants apprennent à configurer des serveurs, à administrer des réseaux, à assurer la sécurité informatique,
-                                            et à résoudre des problèmes techniques liés aux systèmes et aux réseaux. Cette option prépare les étudiants à travailler
-                                            dans le domaine de l'administration système et réseau au sein des organisations.
-                                        </p>
+                                        <div class="optiongauche">
+                                            <p class="lead">
+                                                <h5>Option SISR</h5>
+                                                L'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) du BTS SIO (Services Informatiques aux Organisations)
+                                                forme des professionnels capables de concevoir, gérer et maintenir les infrastructures informatiques d'une entreprise.
+                                                Les étudiants apprennent à configurer des serveurs, à administrer des réseaux, à assurer la sécurité informatique,
+                                                et à résoudre des problèmes techniques liés aux systèmes et aux réseaux. Cette option prépare les étudiants à travailler
+                                                dans le domaine de l'administration système et réseau au sein des organisations.
+                                            </p>
+                                        </div>
+                                        <div class="optiondroite">
+                                            <p class="lead">
+                                                <h5>Option SLAM</h5>
+                                                L'option SLAM (Solution Logiciel et Application Métier) du BTS SIO (Service Informatiques aux Organisations)
+                                                forme les étudiants au développement logiciel et à la conception d'applications métiers.
+                                                Ils acquièrent des compétences en programmation (Java, C#, PHP, Python), en conception de bases de données,
+                                                en développement web et mobile, ainsi qu'en intégration de systèmes. Cette formation met l'accent sur la compréhension
+                                                des processus métiers pour créer des solutions informatiques adaptées. Les étudiants travaillent sur des projets concrets en équipe,
+                                                développant ainsi leurs compétences en gestion de projet et en collaboration. À la fin de leur formation, ils sont prêts à occuper des postes
+                                                de développeur d'applications ou analyste-programmeur dans diverses organisations.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +159,7 @@ $icons = [
 											Veille Techno
 										</h3>
 										<div class="line-mf"></div>
-										<a href="VeuilleTech.php" target="_blank">
+										<a href="VeuilleTech.php" >
 											<p class="subtitle-a">
 											CVE  (Common Vulnerabilities and Exposures) <i class="bi bi-box-arrow-up-right"></i>
 											</p>
@@ -254,7 +268,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="ap.php#first" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+											<a href="ap.php#first" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -280,7 +294,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="ap.php#second" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+											<a href="ap.php#second" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -304,7 +318,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="stage.php" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -328,7 +342,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="stage.php" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -345,14 +359,14 @@ $icons = [
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Studio Big Bang</h2>
+										<h2 class="w-title">Situation Professionnel</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+											<span class="w-ctegory">Situation professionnel réalisé pour les examens</span>
 										</div>
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+											<a href="sp.php"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -370,161 +384,46 @@ $icons = [
                     <div class="col-sm-12">
                         <div class="title-box text-center">
                             <h3 class="title-a">
-                                Portfolio
+                                Profil
                             </h3>
                             <p class="subtitle-a">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                CV et Certification
                             </p>
                             <div class="line-mf"></div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="assets/img/work-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                <div class="work-img">
-                                    <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                    <div class="col-md-4 space">
+                        <div class="service-box">
+                            <a href="CV.php" >
+                                <div class="service-ico">
+                                    <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
+                                </div>
+                                <div class="service-content">
+                                    <h2 class="s-title cve-title">Curiculum Vitae</h2>
+                                    <p class="s-description text-center">
+                                        Vous pourrez trouver mon CV ci-joint.
+                                    </p>
                                 </div>
                             </a>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Lorem impsum dolor</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                <div class="work-img">
-                                    <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                    <div class="col-md-4 space">
+                        <div class="service-box">
+                            <a href="certif.php" >
+                                <div class="service-ico">
+                                    <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+                                </div>
+                                <div class="service-content">
+                                    <h2 class="s-title cve-title">Certification</h2>
+                                    <p class="s-description text-center">
+                                        Vous pourrez trouver mes certifications ci-joint.
+                                    </p>
                                 </div>
                             </a>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Loreda Cuno Nere</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="assets/img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                <div class="work-img">
-                                    <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
-                                </div>
-                            </a>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Mavrito Lana Dere</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="assets/img/work-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                <div class="work-img">
-                                    <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
-                                </div>
-                            </a>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Bindo Laro Cado</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="assets/img/work-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                <div class="work-img">
-                                    <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
-                                </div>
-                            </a>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Studio Lena Mado</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="work-box">
-                            <a href="assets/img/work-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
-                                <div class="work-img">
-                                    <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
-                                </div>
-                            </a>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Studio Big Bang</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section><!-- End Portfolio Section -->

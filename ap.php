@@ -1,19 +1,7 @@
 <?php
 include ('header.html');
+include ('navbar.php');
 ?>
-<header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index.html">Portfolio</a></h1>
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link" href="#hero">Home</a></li>
-                <li><a class="nav-link" href="#first">Première Année</a></li>
-                <li><a class="nav-link" href="#second">Deuxième Année</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-    </div>
-</header>
 <body>
 <!-- ======= Hero Section ======= -->
 <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/rhawk.png)">
@@ -29,8 +17,10 @@ include ('header.html');
         </div>
     </div>
 </div>
-<p></p>
 <div id="first">
+    <h2 class="s-title cve-title ">AP Première année </h2>
+</div>
+<div>
     <div class="row certif">
         <div class="col-md-4 img-aws">
             <div class="flex-woaw">
@@ -93,6 +83,9 @@ include ('header.html');
     </div>
 </div>
 <div id="second">
+    <h2 class="s-title cve-title">AP Deuxième année </h2>
+</div>
+<div>
     <div class="row certif">
         <div class="col-md-4 img-aws">
             <div class="flex-woaw">

@@ -1,8 +1,8 @@
 <?php
-include ('header.html');
+
+include("header.html");
 include ('navbar.php');
 ?>
-
 <body>
 <!-- ======= Hero Section ======= -->
 <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/rhawk.png)">
@@ -34,7 +34,6 @@ include ('navbar.php');
     </div>
   </div>
 </body>
-
 
 <!-- Vendor JS Files -->
 <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
