@@ -1,6 +1,7 @@
 <?php
 global $BasePDO;
 include("header.html");
+include ("navbar.php");
 include("conn.php");
 $sql = "SELECT * FROM cve";
 $stmt = $BasePDO->prepare($sql);

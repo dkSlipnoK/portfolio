@@ -1,6 +1,6 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">Portfolio</a></h1>
+      <h1 class="logo"><a href="index.php">Portfolio</a></h1>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link" href="index.php#hero">Home</a></li>
@@ -18,8 +18,8 @@
                 </li>
                 <li class="dropdown"><a href="stage.php" ><span>Stage</span><i class="bi bi-chevron-left"></i></a>
                     <ul>
-                        <li><a href="">Première année</a> </li>
-                        <li><a href="">Deuxième année</a> </li>
+                        <li><a href="stage.php#first">Première année</a> </li>
+                        <li><a href="stage.php#second">Deuxième année</a> </li>
                     </ul>
                 </li>
             </ul>

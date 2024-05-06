@@ -159,11 +159,13 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .subtitle-a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
 }
 
 .line-mf {
@@ -192,6 +194,19 @@ a:hover {
   bottom: -12px;
 }
 
+.Vtech{
+  text-align: justify;
+}
+.title-center{
+  text-align: center !important;
+}
+
+.title-ident{
+  padding-left: 4rem;
+}
+.title-ident2{
+  padding-left: 8rem;
+}
 /*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
@@ -1538,20 +1553,60 @@ body::-webkit-scrollbar {
   }
 }
 .optioncontainer{
-  border: 1px solid black;
   margin: 1rem;
-  padding: 2rem 2rem;
-  text-align: center;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
 }
-.optiongauche .optiondroite{
-  display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+.option{
+  padding-left: 1.5rem;
+  flex-basis: 50%;
 }
-
 .app-title{
   text-align: center;
+}
+.lead2{
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+.stage{
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+/*--------------------------------------------------------------
+# Table of content
+ */
+/* Styles for the table of contents */
+.table-of-contents {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  padding: 20px;
+  border: 1px solid #6c0000;
+  background-color: #6c000026;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 7px 7px #6c0000;
+}
+
+.table-of-contents .h3-TOC {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.toc-item {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.toc-subitem {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+}
+.link-TOC{
+  color: #ffffff !important;
 }
 /*--------------------------------------------------------------
 # Footer

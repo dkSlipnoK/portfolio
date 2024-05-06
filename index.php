@@ -22,8 +22,6 @@ $icons = [
 ?>
 
 <body>
-
-
 	<!-- ======= Hero Section ======= -->
 	<div id="hero" class="hero route bg-image" style="background-image: url(assets/img/rhawk.png)">
 		<div class="overlay-itro"></div>
@@ -48,46 +46,35 @@ $icons = [
 					<div class="col-sm-12">
 						<div class="box-shadow-full">
 							<div class="row">
-								<div class="col-md-6">
-									<div class="row">
-										<div class="col-sm-6 col-md-5">
-											<div class="about-img">
-												<img src="assets/img/testimonial-2.jpg" class="img-fluid rounded b-shadow-a" alt="">
-											</div>
-										</div>
-										<div class="col-sm-6 col-md-7">
-											<div class="about-info">
-												<p><span class="title-s">Nom : </span> <span>Vassallucci Marius</span></p>
-												<p><span class="title-s">Profil : </span> <span>Etudiant</span></p>
-												<p><span class="title-s">Email: </span> <span>marius.vassallucci@gmail.com</span></p>
-												<p><span class="title-s">Téléphone : </span> <span>06.41.84.29.66</span></p>
-											</div>
-										</div>
-									</div>
-									<div class="skill-mf">
-										<p class="title-s">Compétences</p>
-										<p><br><span class="title-s">Python</span> </br> maîtrise des bases</p>
-										<p><span class="title-s">bash</span> </br> bonne connaissance des bases</p>
-                                        <p><span class="title-s">JavaScript</span> </br> bonne connaissance des bases</p>
-                                        <p><span class="title-s">terraform</span> </br> bonne connaissance des bases</p>
-                                        <p><span class="title-s">php/html/css</span> </br> maîtrise des bases</p>
-									</div>
+								<div>
+                                    <h5 class="title-center title-left">A propos</h5>
+                                    <div class="title-box-2 optioncontainer">
+                                        <p class="lead2">
+                                            Étudiant de 24 ans en BTS SIO option SISR (Solution d'Infrastructure, Systèmes et Réseaux).
+                                            Après avoir effectué un Bac professionnel Métier du cuir option Maroquinnerie et un BTS Métier de la Mode option Maroquinnerie et Chaussures, j'ai effectuer ma terminale et tout mon BTS en alternance,
+                                            après avoir fait des mission d'intérimaire dans des entreprise de fabrication de chaussure j'ai décidé de faire une réorientation professionnelle.
+                                            J'ai donc choisi l'informatique car pendant mes précedante étude j'ai adoré utiliser les logiciels pour concevoir les maquettes malgrés le fait que ceci n'était créer pour cette utilisation principal.
+                                            Au cours de mes recherche pour trouvé une formation qui me correspondrait j'ai affiné mon projet professionnel pour m'orienté a termes dans le monde de la cybersécurité et plus particulièrement dans le monde du pentesting
+                                            après quelque années d'expériences dans le monde de l'informatique. malgrés le fait que j'ai choisi l'option SISR dans mon BTS j'ai tout de même appris en autodidacte à créer un site internet notament en utilisant le framework Symfony.
+                                        </p>
+                                    </div>
 								</div>
-								<div class="col-md-6">
-									<div class="about-me pt-4 pt-md-0">
-										<div class="title-box-2">
-											<h5 class="title-left">
-												A propos de moi
-											</h5>
-										</div>
-										<p class="lead">
-											Etudiant de 24 ans en BTS SIO.
-										</p>
-										<p class="lead">
-											Je m'interresse tout particulièrement au monde de la sécurité offensive. Je souhaite partir sur un bachelor et un master en cybersécurité.
-										</p>
-										<p class="lead">Après mes études je souhaiterais partir travailler dans le monde du pentesting.
-										</p>
+								<div>
+                                    <h5 class="title-center title-left">Compétences</h5>
+									<div class="skill-mf">
+                                        <h2>Système d'exploitation</h2>
+                                         Linux <br> Windows <br> Mac
+                                        <h2>Programmation</h2>
+                                        <h4>Base</h4>
+                                        PHP/HTML/CSS
+                                        <h4>Framework PHP</h4>
+                                        Symfony6/laravel
+                                        <h4>Framework JS</h4>
+                                        React/nextJS
+                                        <h2>Gestion d'infrastructure</h2>
+                                        Terraform/Ansible
+                                        <h2>Scripting</h2>
+                                        Python/Bash/powershell/JS
 									</div>
 								</div>
 							</div>
@@ -103,23 +90,23 @@ $icons = [
                     <div class="col-sm-12">
                         <div class="box-shadow-full">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="about-me pt-4 pt-md-0 optioncontainer">
-                                        <div class="title-box-2">
-                                            <h5 class="title-left">
-                                                BTS SIO </br>
-                                                Option SISR
-                                            </h5>
-                                        </div>
-                                        <p class="lead">
+                                <div class="">
+                                    <div class="title-box-2">
+                                        <h5 class="title-center title-left">
+                                            BTS SIO </br>
+                                            Option SISR
+                                        </h5>
+                                        <p class="lead2">
                                             Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations,
                                             s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur
                                             réseau ou de développeur. Pour par la suite intégrer directement le marché du travail ou continuer des études,
                                             dans le domaine de l'informatique.
                                         </p>
-                                        <div class="optiongauche">
-                                            <p class="lead">
-                                                <h5>Option SISR</h5>
+                                    </div>
+                                    <div class="about-me pt-4 pt-md-0 optioncontainer">
+                                        <div class="option">
+                                            <h5 class="title-center title-left">Option SISR</h5>
+                                            <p class="lead2">
                                                 L'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) du BTS SIO (Services Informatiques aux Organisations)
                                                 forme des professionnels capables de concevoir, gérer et maintenir les infrastructures informatiques d'une entreprise.
                                                 Les étudiants apprennent à configurer des serveurs, à administrer des réseaux, à assurer la sécurité informatique,
@@ -127,9 +114,9 @@ $icons = [
                                                 dans le domaine de l'administration système et réseau au sein des organisations.
                                             </p>
                                         </div>
-                                        <div class="optiondroite">
-                                            <p class="lead">
-                                                <h5>Option SLAM</h5>
+                                        <div class="option">
+                                            <h5 class="title-center title-left">Option SLAM</h5>
+                                            <p class="lead2">
                                                 L'option SLAM (Solution Logiciel et Application Métier) du BTS SIO (Service Informatiques aux Organisations)
                                                 forme les étudiants au développement logiciel et à la conception d'applications métiers.
                                                 Ils acquièrent des compétences en programmation (Java, C#, PHP, Python), en conception de bases de données,
@@ -153,24 +140,22 @@ $icons = [
 					<div class="col-sm-12">
 						<div class="box-shadow-full">
 							<div class="row">
-								<div class="col-md-6">
-									<div class="row">
-										<h3 class="title-a">
-											Veille Techno
-										</h3>
+								<div class="">
+									<div class="row Vtech">
+										<h3 class="title-a">Veille Techno</h3>
 										<div class="line-mf"></div>
 										<a href="VeuilleTech.php" >
-											<p class="subtitle-a">
-											CVE  (Common Vulnerabilities and Exposures) <i class="bi bi-box-arrow-up-right"></i>
-											</p>
+											<h2 class="subtitle-a">CVE  (Common Vulnerabilities and Exposures) <i class="bi bi-box-arrow-up-right"></i></h2>
 										</a>
+                                        <div class=""
+                                        <p class="">
+                                            Une CVE (Common Vulnerabilities and Exposures) est une référence standardisée pour identifier et nommer publiquement les failles de sécurité informatique.
+                                            Chaque CVE est assignée à une vulnérabilité spécifique, permettant aux professionnels de la cybersécurité de discuter, référencer et résoudre les problèmes de sécurité de manière coordonnée.
+                                            Ces identifiants facilitent la compréhension et la gestion des risques liés aux logiciels, aidant ainsi à maintenir la sécurité des systèmes informatiques.
+                                        </p>
 									</div>
 								</div>
 							</div>
-							<p class="subtitle_a">
-								Qu'est-ce qune CVE ? </br>
-								Une CVE est failles de sécurité informatique. </br>Lorsque l'on parle d'une CVE c'est une faille à qui a été attribuer un identifiant CVE.
-							</p>
 						</div>
 					</div>
 				</div>
