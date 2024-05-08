@@ -61,20 +61,28 @@ $icons = [
 								</div>
 								<div>
                                     <h5 class="title-center title-left">Compétences</h5>
-									<div class="skill-mf">
-                                        <h2>Système d'exploitation</h2>
-                                         Linux <br> Windows <br> Mac
-                                        <h2>Programmation</h2>
-                                        <h4>Base</h4>
-                                        PHP/HTML/CSS
-                                        <h4>Framework PHP</h4>
-                                        Symfony6/laravel
-                                        <h4>Framework JS</h4>
-                                        React/nextJS
-                                        <h2>Gestion d'infrastructure</h2>
-                                        Terraform/Ansible
-                                        <h2>Scripting</h2>
-                                        Python/Bash/powershell/JS
+									<div class="skill-mf skill">
+                                        <div>
+                                            <h2>Système d'exploitation</h2>
+                                             Linux <br> Windows <br> Mac
+                                        </div>
+                                        <div>
+                                            <h2>Dev</h2>
+                                            <h4>Base</h4>
+                                            PHP/HTML/CSS
+                                            <h4>Framework PHP</h4>
+                                            Symfony6/laravel
+                                            <h4>Framework JS</h4>
+                                            React/nextJS
+                                        </div>
+                                        <div>
+                                            <h2>Gestion d'infrastructure</h2>
+                                            Terraform/Ansible
+                                        </div>
+                                        <div>
+                                            <h2>Scripting</h2>
+                                            Python/Bash/powershell/JS
+                                        </div>
 									</div>
 								</div>
 							</div>

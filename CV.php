@@ -1,11 +1,7 @@
 <?php
 include("header.html");
+include("navbar.php")
 ?>
-<header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index.php" target="_blank">Portfolio</a></h1>
-    </div>
-</header>
 <body>
     <!-- ======= Hero Section ======= -->
     <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/rhawk.png)">
