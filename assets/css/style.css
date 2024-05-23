@@ -1578,13 +1578,16 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
 }
-.test{
-  margin-right: 2rem;
-}
+
 .screen{
   padding-bottom: 2rem;
   width: 1080px;
   height: auto;
+}
+
+.comp-space{
+  padding-right: 2rem;
+  padding-top: 2rem;
 }
 /*--------------------------------------------------------------
 # Table of content

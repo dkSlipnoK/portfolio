@@ -19,7 +19,13 @@
                 <li class="dropdown"><a href="stage.php" ><span>Stage</span><i class="bi bi-chevron-left"></i></a>
                     <ul>
                         <li><a href="stage.php#first">Première année</a> </li>
-                        <li><a href="stage.php#second">Deuxième année</a> </li>
+                        <li><a href="stage.php#secondY">Deuxième année</a> </li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="sp.php"><span>Situation Pro</span><i class="bi bi-chevron-left"></i> </a>
+                    <ul>
+                        <li><a href="sp.php#first"><span>Situation 1</span></a></li>
+                        <li><a href="sp.php#second"><span>Situation 2</span></a> </li>
                     </ul>
                 </li>
             </ul>

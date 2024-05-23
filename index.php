@@ -62,26 +62,25 @@ $icons = [
 								<div>
                                     <h5 class="title-center title-left">Compétences</h5>
 									<div class="skill-mf skill">
-                                        <div>
+                                        <div class="comp-space">
                                             <h2>Système <br> d'exploitation</h2>
-                                             Linux <br> Windows <br> Mac
+                                            <p>Linux <br> Windows <br> Mac</p>
                                         </div>
-                                        <div>
+                                        <div class="comp-space">
                                             <h2>Dev</h2>
-                                            <h4>Base</h4>
-                                            PHP/HTML/CSS
-                                            <h4>Framework PHP</h4>
-                                            Symfony6/laravel
-                                            <h4>Framework JS</h4>
-                                            React/nextJS
+                                            <p>PHP, HTML, CSS, Symfony6, laravel, React, nextJS</p>
                                         </div>
-                                        <div>
+                                        <div class="comp-space">
                                             <h2>Gestion <br>d'infrastructure</h2>
-                                            Terraform/Ansible
+                                            <p>Terraform, Ansible</p>
                                         </div>
-                                        <div>
+                                        <div class="comp-space">
                                             <h2>Scripting</h2>
-                                            Python/Bash/powershell/JS
+                                            <p>Python, Bash, powershell, JS</p>
+                                        </div>
+                                        <div class="comp-space">
+                                            <h2>Réseau</h2>
+                                            <p>BDD, Serveur de Sauvegarde, DNS, DHCP, Pare-feu, Proxy, Monitoring (et d'autre encore)</p>
                                         </div>
 									</div>
 								</div>
@@ -335,7 +334,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="stage.php#second" > <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php#secondY" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -352,9 +351,9 @@ $icons = [
 							<div class="work-content">
 								<div class="row">
 									<div class="col-sm-8">
-										<h2 class="w-title">Situation Professionnel</h2>
+										<h2 class="w-title">Situation Professionnelle</h2>
 										<div class="w-more">
-											<span class="w-ctegory">Situation professionnel réalisé pour les examens</span>
+											<span class="w-ctegory">Situation professionnelle réalisées pour les examens</span>
 										</div>
 									</div>
 									<div class="col-sm-4">
