@@ -63,7 +63,7 @@ $icons = [
                                     <h5 class="title-center title-left">Compétences</h5>
 									<div class="skill-mf skill">
                                         <div>
-                                            <h2>Système d'exploitation</h2>
+                                            <h2>Système <br> d'exploitation</h2>
                                              Linux <br> Windows <br> Mac
                                         </div>
                                         <div>
@@ -76,7 +76,7 @@ $icons = [
                                             React/nextJS
                                         </div>
                                         <div>
-                                            <h2>Gestion d'infrastructure</h2>
+                                            <h2>Gestion <br>d'infrastructure</h2>
                                             Terraform/Ansible
                                         </div>
                                         <div>
@@ -235,7 +235,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="https://127.0.0.1:8000/" target="_blank"> <span class="bi bi-plus-circle"></span></a>
+											<a href="deploy.php"> <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -311,7 +311,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="stage.php" > <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php#first" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>
@@ -335,7 +335,7 @@ $icons = [
 									</div>
 									<div class="col-sm-4">
 										<div class="w-like">
-											<a href="stage.php" > <span class="bi bi-plus-circle"></span></a>
+											<a href="stage.php#second" > <span class="bi bi-plus-circle"></span></a>
 										</div>
 									</div>
 								</div>

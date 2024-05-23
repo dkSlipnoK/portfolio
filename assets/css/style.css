@@ -207,6 +207,9 @@ a:hover {
 .title-ident2{
   padding-left: 8rem;
 }
+.title-ident3{
+  padding-left: 12rem;
+}
 /*------/ Box /------*/
 .box-pl2 {
   padding-left: 2rem;
@@ -1578,6 +1581,11 @@ body::-webkit-scrollbar {
 .test{
   margin-right: 2rem;
 }
+.screen{
+  padding-bottom: 2rem;
+  width: 1080px;
+  height: auto;
+}
 /*--------------------------------------------------------------
 # Table of content
  */
@@ -1619,6 +1627,7 @@ body::-webkit-scrollbar {
 .skill{
   display: flex;
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

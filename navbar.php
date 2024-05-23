@@ -9,7 +9,7 @@
           <li class="dropdown"><a class="nav-link" href="index.php#services">Veille Techno</a></li>
           <li class="dropdown"><a href="index.php#work"><span>Projets</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-                <li><a href="https://127.0.0.1:8000/" >Site Internet Chtac</a></li>
+                <li><a href="deploy.php" >Site Internet Chtac</a></li>
                 <li class="dropdown"><a href="ap.php" ><span>Atelier de Profesionnalisation</span><i class="bi bi-chevron-left"></i></a>
                     <ul>
                         <li><a href="ap.php#first" >Première année</a> </li>
