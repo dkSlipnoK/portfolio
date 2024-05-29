@@ -1620,7 +1620,7 @@ body::-webkit-scrollbar {
   font-weight: normal;
 }
 .link-TOC{
-  color: #6c0000 !important;
+  color: #ffffff !important;
 }
 
 .img-bg{
@@ -1631,6 +1631,9 @@ body::-webkit-scrollbar {
   display: flex;
 }
 
+.marg-right{
+  margin-right: 2rem;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1655,4 +1658,24 @@ footer .credits a {
 
 .img-aws {
   margin-left: 2rem;
+}
+
+.textIdent {
+  text-indent: 2rem !important;
+}
+
+.textJustify {
+  text-align: justify;
+}
+
+.organigramme {
+  margin: auto;
+  display: flex;
+  max-width: 80%;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.paddingTop {
+  padding-top: 1rem;
 }

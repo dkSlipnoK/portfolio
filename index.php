@@ -49,13 +49,13 @@ $icons = [
 								<div>
                                     <h5 class="title-center title-left">A propos</h5>
                                     <div class="title-box-2 optioncontainer">
-                                        <p class="lead2">
+                                        <p class="lead2 textIdent">
                                             Étudiant de 24 ans en BTS SIO option SISR (Solution d'Infrastructure, Systèmes et Réseaux).
-                                            Après avoir effectué un Bac professionnel Métier du cuir option Maroquinnerie et un BTS Métier de la Mode option Maroquinnerie et Chaussures, j'ai effectuer ma terminale et tout mon BTS en alternance,
-                                            après avoir fait des mission d'intérimaire dans des entreprise de fabrication de chaussure j'ai décidé de faire une réorientation professionnelle.
-                                            J'ai donc choisi l'informatique car pendant mes précedante étude j'ai adoré utiliser les logiciels pour concevoir les maquettes malgrés le fait que ceci n'était créer pour cette utilisation principal.
-                                            Au cours de mes recherche pour trouvé une formation qui me correspondrait j'ai affiné mon projet professionnel pour m'orienté a termes dans le monde de la cybersécurité et plus particulièrement dans le monde du pentesting
-                                            après quelque années d'expériences dans le monde de l'informatique. malgrés le fait que j'ai choisi l'option SISR dans mon BTS j'ai tout de même appris en autodidacte à créer un site internet notament en utilisant le framework Symfony.
+                                            Après avoir effectué un Bac Professionnel Métier du cuir option Maroquinnerie et un BTS Métier de la Mode option Maroquinnerie et Chaussures, j'ai effectué ma terminale et mon BTS en alternance.
+                                            Après avoir fait des missions d'intérimaire dans des entreprises de fabrication de chaussures, j'ai décidé de faire une réorientation professionnelle.
+                                            J'ai donc choisi l'informatique car, pendant mes précedantes études, j'ai adoré utiliser les logiciels pour concevoir des maquettes.
+                                            Au cours de mes recherches, j'ai affiné mon projet professionnel pour m'orienter à termes dans le monde de la cybersécurité et plus particulièrement dans le monde du pentesting.
+                                            Bien que j'ai choisi l'option SISR dans mon BTS,  j'ai tout de même appris en autodidacte à créer un site internet en utilisant le framework Symfony.
                                         </p>
                                     </div>
 								</div>
@@ -63,12 +63,12 @@ $icons = [
                                     <h5 class="title-center title-left">Compétences</h5>
 									<div class="skill-mf skill">
                                         <div class="comp-space">
-                                            <h2>Système <br> d'exploitation</h2>
+                                            <h2>Systèmes <br> d'exploitation</h2>
                                             <p>Linux <br> Windows <br> Mac</p>
                                         </div>
                                         <div class="comp-space">
-                                            <h2>Dev</h2>
-                                            <p>PHP, HTML, CSS, Symfony6, laravel, React, nextJS</p>
+                                            <h2>Développement <br> Web</h2>
+                                            <p>PHP, HTML, CSS, Symfony6, Laravel, React, NextJS</p>
                                         </div>
                                         <div class="comp-space">
                                             <h2>Gestion <br>d'infrastructure</h2>
@@ -76,11 +76,11 @@ $icons = [
                                         </div>
                                         <div class="comp-space">
                                             <h2>Scripting</h2>
-                                            <p>Python, Bash, powershell, JS</p>
+                                            <p>Python, Bash, Powershell, JS</p>
                                         </div>
                                         <div class="comp-space">
                                             <h2>Réseau</h2>
-                                            <p>BDD, Serveur de Sauvegarde, DNS, DHCP, Pare-feu, Proxy, Monitoring (et d'autre encore)</p>
+                                            <p>BDD, Serveur de Sauvegarde, DNS, DHCP, Pare-feu, Proxy, Monitoring (et d'autres encore)</p>
                                         </div>
 									</div>
 								</div>
@@ -103,7 +103,7 @@ $icons = [
                                             BTS SIO </br>
                                             Option SISR
                                         </h5>
-                                        <p class="lead2">
+                                        <p class="lead2  textIdent">
                                             Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations,
                                             s'adresse à ceux qui souhaitent se former en deux ans aux métiers d'administrateur
                                             réseau ou de développeur. Pour par la suite intégrer directement le marché du travail ou continuer des études,
@@ -113,7 +113,7 @@ $icons = [
                                     <div class="about-me pt-4 pt-md-0 optioncontainer">
                                         <div class="option">
                                             <h5 class="title-center title-left">Option SISR</h5>
-                                            <p class="lead2">
+                                            <p class="lead2  textIdent">
                                                 L'option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) du BTS SIO (Services Informatiques aux Organisations)
                                                 forme des professionnels capables de concevoir, gérer et maintenir les infrastructures informatiques d'une entreprise.
                                                 Les étudiants apprennent à configurer des serveurs, à administrer des réseaux, à assurer la sécurité informatique,
@@ -123,7 +123,7 @@ $icons = [
                                         </div>
                                         <div class="option">
                                             <h5 class="title-center title-left">Option SLAM</h5>
-                                            <p class="lead2">
+                                            <p class="lead2 textIdent">
                                                 L'option SLAM (Solution Logiciel et Application Métier) du BTS SIO (Service Informatiques aux Organisations)
                                                 forme les étudiants au développement logiciel et à la conception d'applications métiers.
                                                 Ils acquièrent des compétences en programmation (Java, C#, PHP, Python), en conception de bases de données,
@@ -149,13 +149,13 @@ $icons = [
 							<div class="row">
 								<div class="">
 									<div class="row Vtech">
-										<h3 class="title-a">Veille Techno</h3>
+										<h3 class="title-a">Veille Technologique</h3>
 										<div class="line-mf"></div>
 										<a href="VeuilleTech.php" >
 											<h2 class="subtitle-a">CVE  (Common Vulnerabilities and Exposures) <i class="bi bi-box-arrow-up-right"></i></h2>
 										</a>
-                                        <div class=""
-                                        <p class="">
+                                        <div class="">
+                                        <p class="textIdent">
                                             Une CVE (Common Vulnerabilities and Exposures) est une référence standardisée pour identifier et nommer publiquement les failles de sécurité informatique.
                                             Chaque CVE est assignée à une vulnérabilité spécifique, permettant aux professionnels de la cybersécurité de discuter, référencer et résoudre les problèmes de sécurité de manière coordonnée.
                                             Ces identifiants facilitent la compréhension et la gestion des risques liés aux logiciels, aidant ainsi à maintenir la sécurité des systèmes informatiques.
@@ -393,7 +393,7 @@ $icons = [
                                     <span class="ico-circle"><i class="bi bi-briefcase"></i></span>
                                 </div>
                                 <div class="service-content">
-                                    <h2 class="s-title cve-title">Curiculum Vitae</h2>
+                                    <h2 class="s-title cve-title">Curriculum Vitae</h2>
                                     <p class="s-description text-center">
                                         Vous pourrez trouver mon CV ci-joint.
                                     </p>
@@ -408,7 +408,7 @@ $icons = [
                                     <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
                                 </div>
                                 <div class="service-content">
-                                    <h2 class="s-title cve-title">Certification</h2>
+                                    <h2 class="s-title cve-title">Certifications</h2>
                                     <p class="s-description text-center">
                                         Vous pourrez trouver mes certifications ci-joint.
                                     </p>
