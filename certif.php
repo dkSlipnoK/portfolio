@@ -17,18 +17,34 @@ include("navbar.php");
             </div>
         </div>
     </div>
-    <div class="row certif">
-        <div class="col-md-4 img-aws">
-            <div class="flex-woaw">
-                <div class="service-box certif-box">
-                    <div class="service-content">
-                        <h2 class="s-title cve-title">AWS </h2>
-                        <img src="assets/img/aws-academy-graduate-aws-academy-cloud-foundations.png" alt="">
+    <div>
+        <div class="row certif">
+            <div class="col-md-4 img-aws">
+                <div class="flex-woaw">
+                    <div class="service-box certif-box">
+                        <div class="service-content">
+                            <h2 class="s-title cve-title">AWS </h2>
+                            <img src="assets/img/aws-academy-graduate-aws-academy-cloud-foundations.png" alt="">
+                        </div>
                     </div>
+                    <div class="pdf"><embed src="assets/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20240120-34-lccg3u.pdf" type="application/pdf"/></div>
                 </div>
-                <div class="pdf"><embed src="assets/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20240120-34-lccg3u.pdf" type="application/pdf"/></div>
             </div>
         </div>
+        <div class="row certif"
+            <div class="col-md-4 img-aws">
+                <div class="flex-woaw">
+                    <div class="service-box certif-box">
+                        <div class="service-content">
+                            <h2 class="s-title cve-title">Mooc ANSSI </h2>
+                            <img src="assets/img/anssi-logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pdf"><embed src="assets/mooc-anssi.pdf" type="application/pdf"/></div>
+                </div>
+            </div>
+        </div>
+
 </body>
 
 <!-- Vendor JS Files -->

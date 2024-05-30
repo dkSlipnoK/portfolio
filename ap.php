@@ -81,6 +81,81 @@ include ('navbar.php');
             </div>
         </div>
     </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">FTP </h2>
+                        <img src="assets/img/ftp.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/ftp.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">HTTP </h2>
+                        <img src="assets/img/http.png" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/http.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">HTTPS et FTPS </h2>
+                        <img src="assets/img/ssl.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/https_ftps.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">Netfilter </h2>
+                        <img src="assets/img/netfilter.png" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/netfilter.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">dhcp </h2>
+                        <img src="assets/img/dhcp.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/dhcp.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <div id="second">
     <h2 class="s-title cve-title">AP Deuxième année </h2>
@@ -91,12 +166,12 @@ include ('navbar.php');
             <div class="flex-woaw">
                 <div class="service-box certif-box">
                     <div class="service-content">
-                        <h2 class="s-title cve-title">LXC </h2>
-                        <img src="assets/img/logo-lxc.png" alt="">
+                        <h2 class="s-title cve-title">Configuration de l'infra </h2>
+<!--                        <img src="assets/img/logo-lxc.png" alt="">-->
                     </div>
                 </div>
                 <div class="pdf">
-                    <embed src="assets/lxc.pdf" type="application/pdf"/>
+                    <embed src="assets/docAnnee2/infra.pdf" type="application/pdf"/>
                 </div>
             </div>
         </div>
@@ -106,12 +181,12 @@ include ('navbar.php');
             <div class="flex-woaw">
                 <div class="service-box certif-box">
                     <div class="service-content">
-                        <h2 class="s-title cve-title">Lamp </h2>
-                        <img src="assets/img/lamp.png" alt="">
+                        <h2 class="s-title cve-title">GPG </h2>
+                        <img src="assets/img/gpg.png" alt="">
                     </div>
                 </div>
                 <div class="pdf">
-                    <embed src="assets/installation_lamp.pdf" type="application/pdf"/>
+                    <embed src="assets/docAnnee2/gpg.pdf" type="application/pdf"/>
                 </div>
             </div>
         </div>
@@ -121,12 +196,12 @@ include ('navbar.php');
             <div class="flex-woaw">
                 <div class="service-box certif-box">
                     <div class="service-content">
-                        <h2 class="s-title cve-title">DNS </h2>
-                        <img src="assets/img/dns.jpeg" alt="">
+                        <h2 class="s-title cve-title">Clonezilla </h2>
+                        <img src="assets/img/clonezilla.png" alt="">
                     </div>
                 </div>
                 <div class="pdf">
-                    <embed src="assets/dns.pdf" type="application/pdf"/>
+                    <embed src="assets/docAnnee2/clonezilla.pdf" type="application/pdf"/>
                 </div>
             </div>
         </div>
@@ -136,12 +211,57 @@ include ('navbar.php');
             <div class="flex-woaw">
                 <div class="service-box certif-box">
                     <div class="service-content">
-                        <h2 class="s-title cve-title">Backup </h2>
-                        <img src="assets/img/backup.jpeg" alt="">
+                        <h2 class="s-title cve-title">BackupPC </h2>
+                        <img src="assets/img/backuppc.png" alt="">
                     </div>
                 </div>
                 <div class="pdf">
-                    <embed src="assets/backup.pdf" type="application/pdf"/>
+                    <embed src="assets/docAnnee2/backup.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">Data Base </h2>
+                        <img src="assets/img/mariadb.png" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/DB.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">DHCP </h2>
+                        <img src="assets/img/dhcp.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/dhcp.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">DHCP failover et Load Balancing</h2>
+                        <img src="assets/img/dhcp.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/dhcpFailoverLoadBal.pdf" type="application/pdf"/>
                 </div>
             </div>
         </div>
