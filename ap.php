@@ -167,7 +167,7 @@ include ('navbar.php');
                 <div class="service-box certif-box">
                     <div class="service-content">
                         <h2 class="s-title cve-title">Configuration de l'infra </h2>
-<!--                        <img src="assets/img/logo-lxc.png" alt="">-->
+                        <img src="assets/img/proxmox.png" alt="">
                     </div>
                 </div>
                 <div class="pdf">
@@ -262,6 +262,96 @@ include ('navbar.php');
                 </div>
                 <div class="pdf">
                     <embed src="assets/docAnnee2/dhcpFailoverLoadBal.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">DNS</h2>
+                        <img src="assets/img/dns.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/dns.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">Nginx</h2>
+                        <img src="assets/img/nginx.png" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/appliWeb.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">FTP</h2>
+                        <img src="assets/img/ftp.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/ftp.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">SSL/TLS</h2>
+                        <img src="assets/img/ssl.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/ssl.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">OPNsense</h2>
+                        <img src="assets/img/opnsense.png" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/opnsense.pdf" type="application/pdf"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row certif">
+        <div class="col-md-4 img-aws">
+            <div class="flex-woaw">
+                <div class="service-box certif-box">
+                    <div class="service-content">
+                        <h2 class="s-title cve-title">Zabbix</h2>
+                        <img src="assets/img/zabbix.png" alt="">
+                    </div>
+                </div>
+                <div class="pdf">
+                    <embed src="assets/docAnnee2/zabbix.pdf" type="application/pdf"/>
                 </div>
             </div>
         </div>
