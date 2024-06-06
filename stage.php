@@ -249,7 +249,7 @@ include ('navbar.php');
                                     Enfin le dernier problème concerne le nom des villes récupérées par la plateforme Iconosquare. En effet, ces dernières sont récupérées dans la langue de
                                     l’utilisateur. Cependant, ces dernières doivent être récupérées en anglais pour pouvoir exécuter des requêtes sur les noms dans la base Redis.
                                 </p>
-                                <a href="script.php">voir Annexe</a>
+                                <a href="script.php" class="link-TOC">voir Annexe</a>
                                 <p class="textIdent">
                                     Le deuxième sujet concerne la réalisation d’un serveur Prometheus pour faire du monitoring des versions des différents services installés dans l’infrastructure. Après de longues recherches sur ce sujet, il s’avère que la mise
                                     en place d’un serveur Prometheus aurait demandé beaucoup trop d’efforts. J’ai fini par opter pour la création d'un script python exécuté sur Lambda et permettant de récupérer la version des services installés, de faire
@@ -258,12 +258,12 @@ include ('navbar.php');
                                     possède des modules de base de python, il fallait que j’importe les modules nécessaires pour mon script. En revanche, comme Iconosquare utilise Terraform (langage IaC) pour déployer son infrastructure, il a fallu que je trouve comment faire pour
                                     importer les modules nécessaires.
                                 </p>
-                                <a href="script.php">voir Annexe</a>
+                                <a href="script.php" class="link-TOC">voir Annexe</a>
                                 <p class="textIdent">
                                     Le troisième sujet concerne la Recherche et Développement sur les Features flag pour le backend (laravel/php) et le frontend (React/Next) et comment faire pour pouvoir utiliser la nouvelle option de Gitlab pour gérer les Features flags.
                                     J’en ai donc profité pour faire des tests en local afin d'en comprendre le fonctionnement. Il m’a donc été demandé de faire une documentation pour les développeurs backend et frontend ainsi qu'une présentation et une démonstration afin d'expliquer comment mettre en place et configurer les Features flag dans leur code.<br><br>
-                                    voir <a href="#featureFlag" class="link-TOC">Annexe</a><br><br>
                                 </p>
+                                 <a href="script.php" class="link-TOC">voir Annexe</a><br><br>
                             </div>
                             <h4 class="title-ident" id="difficult">Les difficultés du stage</h4>
                             <div class="textJustify">
